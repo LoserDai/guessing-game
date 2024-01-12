@@ -16,13 +16,11 @@ fn main() {
     // println!("x:{x} and y:{y}");
 
 
-    let tup: (i32, f64,u8) = (58,6.3,1);
+    let tup: (i32, f64, u8) = (58, 6.3, 1);
     // let (x,y,z) = tup;
     // println!("The value of y is :{y}");
     let first = tup.0;
     let sec = tup.1;
     let third = tup.2;
     // println!("{first},{sec},{third}");
-
-
 }
